@@ -1,0 +1,62 @@
+
+.
+├── .eslintrc.json
+├── .gitignore
+├── .husky
+│   └── pre-commit
+├── .prettierrc
+├── admin
+│   ├── index.html
+│   ├── package.json
+│   ├── src
+│   │   ├── App.css
+│   │   ├── App.tsx
+│   │   ├── index.css
+│   │   └── main.tsx
+│   ├── tsconfig.json
+│   ├── tsconfig.node.json
+│   └── vite.config.ts
+├── api
+│   ├── .env.example
+│   ├── package.json
+│   ├── src
+│   │   └── index.ts
+│   └── tsconfig.json
+├── package.json
+├── shared
+│   ├── dist
+│   │   ├── i18n
+│   │   │   ├── keys.d.ts
+│   │   │   └── keys.js
+│   │   └── types
+│   │       ├── index.d.ts
+│   │       └── index.js
+│   ├── i18n
+│   │   └── keys.ts
+│   ├── index.ts
+│   ├── package.json
+│   ├── tsconfig.json
+│   └── types
+│       └── index.ts
+├── tsconfig.base.json
+└── web-app
+    ├── index.html
+    ├── package.json
+    ├── src
+    │   ├── App.css
+    │   ├── App.tsx
+    │   ├── components
+    │   │   ├── BottomTab.tsx
+    │   │   └── ThemeToggle.tsx
+    │   ├── hooks
+    │   │   └── useTheme.ts
+    │   ├── i18n.ts
+    │   ├── index.css
+    │   ├── locales
+    │   │   ├── en.json
+    │   │   └── hi.json
+    │   ├── main.tsx
+    │   └── sw.ts
+    ├── tsconfig.json
+    ├── tsconfig.node.json
+    └── vite.config.ts

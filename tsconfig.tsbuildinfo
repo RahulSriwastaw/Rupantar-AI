@@ -1,0 +1,7 @@
+{
+  "root": [
+    "../types/index.ts",
+    "../i18n/keys.ts"
+  ],
+  "version": "5.9.3"
+}

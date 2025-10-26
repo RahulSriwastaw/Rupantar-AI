@@ -1,0 +1,12 @@
+{
+  "nav": {
+    "template": "Templates",
+    "wallet": "Wallet",
+    "generate": "Generate",
+    "history": "History",
+    "pro": "Pro"
+  },
+  "theme": {
+    "toggle": "Toggle theme"
+  }
+}
